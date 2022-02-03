@@ -11,7 +11,7 @@ from RimMusic import BOT_USERNAME, MUSIC_BOT_NAME, app, db_mem
 from RimMusic.Core.PyTgCalls import Queues
 from RimMusic.Core.PyTgCalls.Converter import convert
 from RimMusic.Core.PyTgCalls.Downloader import download
-from RimMusic.Core.PyTgCalls.Yukki import (join_stream, pause_stream,
+from RimMusic.Core.PyTgCalls.RimMusic import (join_stream, pause_stream,
                                         resume_stream, skip_stream,
                                         skip_video_stream, stop_stream)
 from RimMusic.Database import (_get_playlists, delete_playlist, get_playlist,
